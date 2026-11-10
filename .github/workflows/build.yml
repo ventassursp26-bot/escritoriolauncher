@@ -19,7 +19,6 @@ jobs:
 
     - name: Dar permisos a Gradle
       run: chmod +x ./gradlew
-      continue-on-error: true
 
     - name: Compilar el APK de depuración
       run: ./gradlew assembleDebug
